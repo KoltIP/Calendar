@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
 import 'moment/locale/ru';
-//import ItemModel from '../models/ItemModel';
+import '../styles/Calendar.css';
 
 function Calendar(props) {
     const {item} = props;
